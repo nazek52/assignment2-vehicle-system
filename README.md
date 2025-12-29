@@ -41,8 +41,8 @@ The Vehicle Management System is a Java-based application designed to demonstrat
    javac *.java
    Screenshots
 
-Screenshots are available in the docs/screenshots/ folder, showing program output demonstrating correct behavior of vehicles and drivers.
+##Screenshots are available in the docs/screenshots/ folder, showing program output demonstrating correct behavior of vehicles and drivers.
 
-Reflection
+##Reflection
 
 Inheritance simplified the design by allowing all vehicle types to share common attributes and methods, reducing code duplication. Method overriding enabled each subclass to customize engine behavior according to its specific type. Using protected access modifiers facilitated subclass access to fields while preserving encapsulation, although careful attention was needed to avoid unintended exposure. The composition and aggregation relationships provided a flexible yet structured way to manage Driver–Vehicle associations.
